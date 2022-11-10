@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+}
+#search{
+    width: 30px;
+    height: 30px;
+margin-left: 6em;
+}    
+header{
+color:aliceblue;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #212529;
+
+}
+nav{
+    padding-right: 1em;
+}
+#logo{
+    margin-left: 1em;
+    width: 3em;
+    height: 3em;
+}
+h1{
+    font-size: 1.5em;
+}
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar2{
+  display: none;
+ }
+@media (max-width: 1136px) {
+  .navbar{
+   display: none;
+  }
+  .navbar2{
+    display: flex;
+    padding: 0px 30px;
+
+  }
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: red;
+}
+form {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+  }
+  #inp, #srch {
+    outline: none;
+    background: transparent;
+  }
+  #inp {
+    width: 100%;
+    height: 42px;
+    color: #F9F0DA;
+    padding-left: 15px;
+    border: 3px solid #575757f5;
+  }
+  #srch {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  #srch:before {
+    content: "\f002";
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 16px;
+  }
+  #inp:focus {
+    border-color: #ffffff;
+
+  }

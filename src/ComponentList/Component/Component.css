@@ -1,0 +1,87 @@
+.Article{
+    height: 500px;
+    width: 90%;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 30px 30px;
+    background-color: rgb(33, 37, 41);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.NoPost{
+    margin-top: 150px;
+    font-size: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: rgb(33, 37, 41);
+    width: 80%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 80px -10px;
+}
+h3{
+    padding-bottom: 15px;
+}
+.Article:hover{
+    transition:1s;
+    box-shadow: rgb(38, 57, 77) 0px 20px 80px -10px;
+
+}
+.More{
+padding-bottom: 15px;
+text-align: center;
+background-color: rgb(33, 37, 41);
+
+}
+.Txt{
+    height: 370px;  
+}
+.row{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    max-height: 340px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    content: "";
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(48, 57, 61));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+#Article:before {
+    content:'';
+    width:400px;
+    height:100px;    
+    position:absolute;
+    left:0;
+    top:0;
+    background:linear-gradient(transparent 100px, white);
+  }
+.Dat{
+    background-color: rgb(33, 37, 41);  
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.Del:hover{
+    cursor: pointer;
+
+}
+@media (max-width: 1136px) {
+    .Article{
+        margin: 30px;
+        border-radius: 10px;
+        padding: 20px 30px;
+        width: 300px;
+        height: 445px;
+    }
+    .Txt{
+        height: 340px;
+    }
+    .row{
+        max-height: 300px;
+    }
+    #Article:before {
+        background:linear-gradient(transparent 240px, white);
+    }
+
+ }

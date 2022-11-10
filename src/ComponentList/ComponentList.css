@@ -1,0 +1,28 @@
+body{
+    background-color: #141414;
+    color: rgb(255, 255, 255);
+}
+.ArticleList{
+    padding: 0px 20px;
+    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 1136px) {
+    .ArticleList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+ }
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 14px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+}
